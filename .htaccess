@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^(http://)?joris\.me [NC]
+RewriteRule (.*) http://joris.me/$1 [R=301,L]
+
+ExpiresActive On
+ExpiresDefault "access plus 7 days"
+
+SetOutputFilter DEFLATE
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \
+\.(?:gif|jpe?g|png)$ no-gzip dont-vary
+Header append Vary User-Agent env=!dont-vary

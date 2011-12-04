@@ -1,0 +1,181 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[normalem]{ulem}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+% Variables here
+\def\name{Joris Berthelot}
+\def\title{PHP developer}
+\def\footerlink{http://joris.me/get/Joris\_Berthelot\_phpdev\_resume.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+    colorlinks = true,
+    urlcolor = black,
+    pdfauthor = {\name},
+    pdfkeywords = {PHP, Development, Web, Application, Software},
+    pdftitle = {\name 's resume},
+    pdfsubject = {\name 's resume},
+    pdfpagemode = UseNone
+}
+
+\geometry{
+    body={6.5in, 8.5in},
+    left=1.0in,
+    top=1.25in
+}
+
+% Customize page headers
+\pagestyle{fancy}
+\thispagestyle{empty}
+\fancyhf{}
+\lhead{\name 's resume - PHP developer}
+\rhead{\thepage}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+% Space before tab columns
+%\setlength{\tabcolsep}{0.6cm}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+    \begin{list}{}{
+        \setlength{\leftmargin}{1.5em}
+    }
+}{
+    \end{list}
+}
+
+\begin{document}
+    
+    % Place name at left
+    {\Huge \name} \\
+    {\Large \title}
+    
+    % Alternatively, print name centered and bold:
+    %\centerline{\huge \bf \name}
+    
+    \vspace{0.25in}
+    
+    \begin{minipage}{0.65\linewidth}
+        4, chemin de l'Appi\'e \\
+        Domaine des Mimosas \\
+        06810 Auribeau sur Siagne \\
+        France
+    \end{minipage}
+    \begin{minipage}{0.5\linewidth}
+        \begin{tabular}{ll}
+            Email: & \href{mailto:joris@berthelot.tel}{\tt joris@berthelot.tel} \\
+            Phone: & \href{http://joris.berthelot.tel}{\tt joris.berthelot.tel} \\
+                   & +33 (0)650 157 908 \\
+            Full resume: & \href{http://joris.me}{\tt http://joris.me} \\
+            Twitter: & \href{http://twitter.com/joris_berthelot}{@joris\_berthelot}
+        \end{tabular}
+    \end{minipage}
+    
+    \section*{Educational background}
+        
+        \begin{itemize}
+            \item Majoring: Computer Science Engineering MSc
+            \item Telecommunication \& Network Professional Bachelor's Degree, Web Developer concentration, 2009
+            \item Communication, Network and Services Higher National Diploma, 2008
+            \item Laboratory Sciences High School Diploma, 2006
+        \end{itemize}
+        
+    \section*{Experience}
+        
+        \setlength{\tabcolsep}{0.6cm}
+        \begin{tabular}{p{1cm}p{\textwidth}}
+            \large{2008} & \begin{itemize}
+                \item Drupal consultant/developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 8 wk
+                \item Drupal intern developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 10 wk
+            \end{itemize} \\
+            \large{2010} &  \begin{itemize}
+                \item Telecommuting PHP developer at \uline{\href{http://www.internet-selection.net}{Internet-Selection}}, 2 mo
+            \end{itemize} \\
+            \large{2009} &  \begin{itemize}
+                \item Intern developer at \uline{\href{http://www.sqli.com}{SQLI Group}}, 5 mo
+            \end{itemize} \\
+            \large{2008} &  \begin{itemize}
+                \item Project manager and speaker at \uline{\href{htt://www.be-zend.org}{Be-Zend}}, 6 mo
+                \item Lead PHP developer at \uline{\href{http://www.normaweb.fr}{Normaweb}}, 7 wk
+                \item Intern Web developer at \uline{\href{http://www.ckc-net.com}{CKC-Net}}, 11 wk
+            \end{itemize} \\
+            \large{2007} &  \begin{itemize}
+                \item Web developer at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 4 wk
+                \item Intern communication analist at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 10 wk
+            \end{itemize}
+        \end{tabular}
+        
+    \section*{Technologies playground}
+        
+        \subsection*{Development}
+            
+            \begin{itemize}
+                \item Back-end developement (PHP5 + FW, SQL, TDD)
+                \item Application programing (Java, C, AppleScript)
+                \item Standards worshipper (W3C, Coding Styles, DRY, KISS)
+                \item Team player (Agile methods, Git, SVN)
+            \end{itemize}
+            
+        \subsection*{System engineering}
+            
+            \begin{itemize}
+                \item Web server configuration (*AMP)
+                \item Networking (SSH, FTP, DNS, DHCP, TFTP)
+                \item Architecture (RAID, virtualization, load-balancing, clustering)
+                \item Operating systems (OSX, Debian-like, Fedora, \sout{Windows})
+            \end{itemize}
+            
+    \section*{Additional information}
+        
+        \begin{itemize}
+            \item Languages: French (mt), English (func), Italian (basics)
+            \item Leisures: volley-ball, snowboard, mountain bike
+            \item Hobbies: photography, festivals/concerts, cinema, travels, coding stuff
+            \item Vehicle: driver licence owner
+            \item Visited countries: France, Morocco, Tunisia, Turkey, Italy, UK, Ireland, Chile
+        \end{itemize}
+        
+    \vfill
+    
+    % Footer
+    \begin{center}
+        \begin{footnotesize}
+            Last updated: \today \\
+            \href{\footerlink}{ \footerlink}
+        \end{footnotesize}
+    \end{center}
+\end{document}
