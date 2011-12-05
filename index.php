@@ -19,13 +19,6 @@ header('Content-Type: text/html;charset=UTF-8');
     <meta name="keywords" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
-    <meta name="DC.title" content="Joris Berthelot - PHP Developer"/>
-    <meta name="DC.author" content="Joris Berthelot"/>
-    <meta name="DC.creator" content="Joris Berthelot"/>
-    <meta name="DC.subject" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c">
-    <meta name="DC.description" content="Joris Berthelot's updated resume: PHP developer, Web server player, Zend PHP Certified Engineer wannabe"/>
-    <meta name="DC.format" content="text/html"/>
-    <meta name="DC.identifier" content="<?php echo $domain; ?>"/>
     <!--
     <meta property="og:title" content="Joris Berthelot - PHP developer resume"/>
     <meta property="og:url" content="<?php echo $domain; ?>"/>
@@ -33,11 +26,13 @@ header('Content-Type: text/html;charset=UTF-8');
     <meta property="og:site_name" content="Joris Berthelot - PHP developer resume"/>
     <meta property="og:description" content="Joris Berthelot's updated resume: PHP developer, Web server player, Zend PHP Certified Engineer wannabe/>
     -->
+    <link rel="alternate" type="application/rdf+xml" href="<?php echo $domain; ?>/index.rdf"/>
     <link rel="image_src" type="image/png" href="<?php echo $domain; ?>/img/icon.png"/>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain; ?>/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="<?php echo $domain; ?>/img/favicon.png"/>
     <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-min.css" type="text/css"  media="all"/>
     <link rel="canonical" href="<?php echo $domain; ?>"/>
+    <base href="<?php echo $domain; ?>"/>
     <!--[if lt IE 8]>
         <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-poor-min.css" type="text/css"  media="all"/>
     <![endif]-->

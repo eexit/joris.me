@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="http://joris.me">
+        <dc:title>Joris Berthelot - PHP Developer</dc:title>
+        <dc:author>Joris Berthelot</dc:author>
+        <dc:creator>Joris Berthelot</dc:creator>
+        <dc:description>Joris Berthelot's updated resume: PHP developer, Web server player, Zend PHP Certified Engineer wannabe</dc:description>
+        <dc:subject>php development web developer system engineer html css javascript resume w3c msc master sciences oop java c</dc:subject>
+        <dc:date>2011-11-30</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:identifier>http://joris.me</dc:identifier>
+        <dc:rights>Copyright (c) 2011, Joris Berthelot</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
