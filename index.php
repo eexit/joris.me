@@ -44,7 +44,7 @@ header('Content-Type: text/html;charset=UTF-8');
     <section id="start">
         <div class="container ribbon"></div>
         <header role="banner" class="container">
-            <h1 title="Awesome PHP developer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><a href="#resume" title="Check out terms below"><span class="label important">*Hire me!</span></a></sup></h1>
+            <h1 title="Awesome PHP developer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label">Hired</span></sup></h1>
             <ul class="floating traits mhide">
                 <li data-rel="tag">Passionated</li>
                 <li data-rel="tag">Bright</li>
@@ -62,7 +62,6 @@ header('Content-Type: text/html;charset=UTF-8');
                 <li class="twitter">@<a href="http://twitter.com/joris_berthelot" rel="me" title="Follow me on Twitter">joris_berthelot</a></li>
             </ul>
             <h2 title="This is what I'm doing right now...">I am majoring in Computer Science Engineering MSc and,<br>for years now, I keep loving <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> language and Web coolness...</h2>
-            <p>* I'm currently looking for a 6-7 months internship in <abbr title="New York City">NYC</abbr> or <abbr title="San Francisco">SF</abbr>.</p>
             <p class="btnlnks"><a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpdev_resume.pdf" title="Get the latest version of my resume" class="btn danger">Get resume</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="#resume" class="btn" title="Check out the full version online">check it out!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
@@ -180,15 +179,16 @@ header('Content-Type: text/html;charset=UTF-8');
                     </ul>
                 </div>
                 <div class="span4">
-                    <p>Visited countries:</p>
+                    <p>Tourism:</p>
                     <ul class="countries">
                         <li class="fr"><a href="http://en.wikipedia.org/wiki/France">France</a></li>
-                        <li class="ma"><a href="http://en.wikipedia.org/wiki/Morocco">Morocco</a></li>
+                        <li class="it"><a href="http://en.wikipedia.org/wiki/Italy">Italy</a></li>
+                        <li class="eg"><a href="http://en.wikipedia.org/wiki/Egypt">Egypt</a></li>
                         <li class="tn"><a href="http://en.wikipedia.org/wiki/Tunisia">Tunisia</a></li>
                         <li class="tr"><a href="http://en.wikipedia.org/wiki/Turkey">Turkey</a></li>
-                        <li class="it"><a href="http://en.wikipedia.org/wiki/Italy">Italy</a></li>
-                        <li class="gb"><a href="http://en.wikipedia.org/wiki/United_Kingdom">UK, Scotland</a></li>
+                        <li class="ma"><a href="http://en.wikipedia.org/wiki/Morocco">Morocco</a></li>
                         <li class="ie"><a href="http://en.wikipedia.org/wiki/Ireland">Ireland</a></li>
+                        <li class="gb"><a href="http://en.wikipedia.org/wiki/United_Kingdom">UK, Scotland</a></li>
                         <li class="cl"><a href="http://en.wikipedia.org/wiki/Chile">Chile</a></li>
                     </ul>
                 </div>
@@ -210,7 +210,7 @@ header('Content-Type: text/html;charset=UTF-8');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2011-11-25</p>
+                    <p>Last updated: 2011-12-12</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
