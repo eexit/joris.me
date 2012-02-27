@@ -94,6 +94,13 @@ header('Content-Type: text/html;charset=UTF-8');
             <section id="experience" class="row">
                 <h2 title="Working experience">Experience</h2>
                 <dl class="span8">
+                    <dt id="2012">2012</dt>
+                    <dd>
+                        <dl>
+                            <dt>Currently: <a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York, USA</small></dt>
+                            <dd>Intern developer, 6 mo</dd>
+                        </dl>
+                    </dd>
                     <dt id="2011">2011</dt>
                     <dd>
                         <dl>
@@ -190,6 +197,7 @@ header('Content-Type: text/html;charset=UTF-8');
                         <li class="ie"><a href="http://en.wikipedia.org/wiki/Ireland">Ireland</a></li>
                         <li class="gb"><a href="http://en.wikipedia.org/wiki/United_Kingdom">UK, Scotland</a></li>
                         <li class="cl"><a href="http://en.wikipedia.org/wiki/Chile">Chile</a></li>
+                        <li class="us"><a href="http://en.wikipedia.org/wiki/United_States">United States</a></li>
                     </ul>
                 </div>
             </section>
@@ -210,7 +218,7 @@ header('Content-Type: text/html;charset=UTF-8');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2011-12-12</p>
+                    <p>Last updated: 2012-02-27</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
