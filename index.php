@@ -1,11 +1,11 @@
 <?php
 function copyright ($year) { return $year < date('Y') ? $year . '-' . date('Y') : $year; }
 $domain = 'http://joris.me';
-$expiration = 3600 * 24 * 30; // 30 days
-date_default_timezone_set(' America/New_York');
-header(sprintf('Cache-Control: max-age=%d, s-maxage=%d, must-revalidate, proxy-revalidate', $expiration, $expiration));
-header(sprintf('Expires: %s', date('r', $expiration)));
-header('Last-Modified: ' . date('r', getlastmod()));
+$expiration = 3600 * 24 * 60; // 60 days
+date_default_timezone_set('America/New_York');
+header(sprintf('Cache-Control: public, max-age=%d, s-maxage=%d, must-revalidate, proxy-revalidate', $expiration, $expiration));
+header(sprintf('Expires: %s', date('r', time() + $expiration)));
+header(sprintf('Last-Modified: %s', date('r', getlastmod())));
 header('Content-Type: text/html;charset=UTF-8');
 header('Pragma: public');
 ?>

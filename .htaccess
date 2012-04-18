@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} !^(http://)?joris\.me [NC]
 RewriteRule (.*) http://joris.me/$1 [R=301,L]
 
 ExpiresActive On
-ExpiresDefault "access plus 7 days"
+ExpiresDefault "access plus 30 days"
 
 SetOutputFilter DEFLATE
 BrowserMatch ^Mozilla/4 gzip-only-text/html
