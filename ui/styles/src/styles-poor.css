@@ -1,0 +1,13 @@
+* {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    letter-spacing: 0;
+}
+
+#start {
+    height: auto;
+}
+
+#start header {
+    margin-top: 4%;
+    padding-bottom: 2em;
+}

@@ -1,0 +1,7 @@
+#!/bin/sh
+path=../ui/styles
+cat $path/src/base.css > $path/src/styles.css
+cat $path/src/bootstrap.min.css >> $path/src/styles.css
+cat $path/src/screen.css >> $path/src/styles.css
+java -jar yuicompressor-2.4.7.jar --type css -o $path/styles-min.css $path/src/styles.css
+java -jar yuicompressor-2.4.7.jar --type css -o $path/styles-poor-min.css $path/src/styles-poor.css

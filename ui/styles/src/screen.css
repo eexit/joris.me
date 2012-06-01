@@ -1,0 +1,505 @@
+/*
+screen.css
+Copyright (c) 2012, Joris Berthelot
+*/
+
+/*@font-face {
+    font-family: "JuraRegular";
+    src: url("/ui/fonts/jura/jura-regular-webfont.eot");
+    src: url("/ui/fonts/jura/jura-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("/ui/fonts/jura/jura-regular-webfont.woff") format("woff"),
+         url("/ui/fonts/jura/jura-regular-webfont.ttf") format("truetype"),
+         url("/ui/fonts/jura/jura-regular-webfont.svg#JuraRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: "DroidSansRegular";
+    src: url("/ui/fonts/droid_sans/droidsans-webfont.eot");
+    src: url("/ui/fonts/droid_sans/droidsans-webfont.eot?#iefix") format("embedded-opentype"),
+         url("/ui/fonts/droid_sans/droidsans-webfont.woff") format("woff"),
+         url("/ui/fonts/droid_sans/droidsans-webfont.ttf") format("truetype"),
+         url("/ui/fonts/droid_sans/droidsans-webfont.svg#DroidSansRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: DroidSansRegular, Helvetica, "Trebuchet MS", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #eee url("/ui/img/background-10.png");
+}
+
+p, dt, li, details {
+    font-size: 1.1em;
+    color: #303030;
+}
+
+.container {
+    padding: 0 2em;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+    color: #303030;
+}
+
+em a,
+em a * {
+    font-style: italic;
+}
+
+dd {
+    font-size: 1.1em;
+}
+
+dd > details {
+    margin: 1em;
+    font-size: .9em;
+}
+
+dl > dt {
+    padding: .4em 0;
+    font-weight: normal;
+}
+
+dt[id] {
+    font-size: 1.8em;
+    padding: .5em;
+}
+
+dt > span.label {
+    vertical-align: text-top;
+}
+
+p small {
+    color: #303030;
+    font-size: .8em;
+}
+
+li {
+    list-style-type: circle;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: normal;
+    color: #eee;
+}
+
+span.label,
+span.label:hover {
+    font-weight: lighter;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+details {
+    padding-left: 20px;
+    background: url("/ui/img/details.png") left top no-repeat;
+}
+
+footer {
+    margin-top: 0;
+    padding-bottom: 2em;
+    border-top: 1px #ccc solid;
+    box-shadow: 0 0 3em #ddd;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+ul.floating li {
+    float: left;
+    list-style: none;
+    margin: .3em 0;
+}
+
+ul.floating + * {
+    clear: both;
+}
+
+a.forkme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    margin-top: -3px;
+    display: block;
+    width: 149px;
+    height: 149px;
+    /*background: url("/ui/img/forkme.png") left top no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -10px no-repeat;
+}
+
+a.forkme * {
+    display: none;
+}
+
+p.center {
+    text-align: center;
+}
+
+.php-logo {
+    width: 420px;
+    height: 195px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 0;
+    background-image: url("/ui/img/logo-php.png");
+}
+
+.ribbon {
+    height: 74px;
+    /*background: url("/ui/img/ribbon.png") left top no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -179px no-repeat;
+    margin-top: -3px;
+}
+
+/* ============== */
+/* = Intro part = */
+/* ============== */
+
+#start a,
+#start a:link,
+#start a:visited,
+#start a:hover,
+#start a:active {
+    color: #404040;
+}
+
+#start {
+    border-top: 3px #b02a28 solid;
+    position: relative;
+    z-index: 100;
+}
+
+#start header {
+    margin-top: 8%;
+    position: relative;
+}
+
+#start h2,
+#start h2 abbr {
+    font-weight: lighter;
+    margin: 2em 0;
+    color: #404040;
+}
+
+#start h2 a {
+    text-decoration: underline;
+}
+
+#start header .btnlnks a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    color: #333;
+}
+
+#start header .btnlnks a.danger,
+#start header .label a {
+    color: #eee;
+}
+
+/* =============== */
+/* = Resume part = */
+/* =============== */
+
+#resume {
+    padding: 5% 0;
+    color: #303030;
+    position: relative;
+}
+
+footer a[href^="http://"],
+#resume a[href^="http://"] {
+    background: url("/ui/img/external.png") top right no-repeat;
+    padding-right: 8px;
+}
+
+#resume h2 {
+    font-size: 3em;
+    padding-left: 50px;
+    color: #303030;
+}
+
+#resume p > strong {
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+#background h2 {
+    /*background: url("/ui/img/escalator.png") left center no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -271px no-repeat;
+}
+
+#background div {
+    margin: 2em 0;
+}
+
+#experience h2 {
+    /*background: url("/ui/img/coatcheck.png") left center no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -323px no-repeat;
+}
+
+#experience dt[id] {
+    background-color: #ccc;
+}
+
+#technologies h2 {
+    /*background: url("/ui/img/nosleep.png") left center no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -375px no-repeat;
+}
+
+#miscelaneous {
+    position: relative;
+    z-index: 1;
+}
+
+#miscelaneous h2 {
+    /*background: url("/ui/img/departingflights.png") left center no-repeat;*/
+    background: url("/ui/img/sprite.png") -10px -427px no-repeat;
+}
+
+#miscelaneous ul.countries {
+    margin: 0;
+}
+
+#miscelaneous ul.countries li {
+    padding-left: 24px;
+    list-style-type: none;
+    background-image: url("/ui/img/sprite.png");
+    background-repeat: no-repeat;
+}
+
+#miscelaneous ul.countries li.fr {
+    /*background: url("/ui/img/country_flags/fr.png") left center no-repeat;*/
+    background-position: -10px -477.5px;
+}
+
+#miscelaneous ul.countries li.it {
+    /*background: url("/ui/img/country_flags/it.png") left center no-repeat;*/
+    background-position: -10px -508.5px;
+}
+
+#miscelaneous ul.countries li.eg {
+    /*background: url("/ui/img/country_flags/eg.png") left center no-repeat;*/
+    background-position: -10px -539.5px;
+}
+
+#miscelaneous ul.countries li.tn {
+    /*background: url("/ui/img/country_flags/tn.png") left center no-repeat;*/
+    background-position: -10px -570.5px;
+}
+
+#miscelaneous ul.countries li.tr {
+    /*background: url("/ui/img/country_flags/tr.png") left center no-repeat;*/
+    background-position: -10px -601.5px;
+}
+
+#miscelaneous ul.countries li.ma {
+    /*background: url("/ui/img/country_flags/ma.png") left center no-repeat;*/
+    background-position: -10px -632.5px;
+}
+
+#miscelaneous ul.countries li.ie {
+    /*background: url("/ui/img/country_flags/ie.png") left center no-repeat;*/
+    background-position: -10px -663.5px;
+}
+
+#miscelaneous ul.countries li.gb {
+    /*background: url("/ui/img/country_flags/gb.png") left center no-repeat;*/
+    background-position: -10px -694.5px;
+}
+
+#miscelaneous ul.countries li.cl {
+    /*background: url("/ui/img/country_flags/cl.png") left center no-repeat;*/
+    background-position: -10px -725.5px;
+}
+
+#miscelaneous ul.countries li.us {
+    /*background: url("/ui/img/country_flags/us.png") left center no-repeat;*/
+    background-position: -10px -756.5px;
+}
+
+#telnic {
+    padding: 0;
+    background: none;
+    margin: .6em auto;
+    width: 64px;
+    display: block;
+}
+
+/* ================= */
+/* = Media queries = */
+/* ================= */
+
+@media (max-height: 600px) {
+    #start {
+        height: auto;
+    }
+    
+    #start header {
+        margin-top: 2%;
+        padding-bottom: 2em;
+    }
+}
+
+@media (min-height: 600px) and (max-height: 900px) {
+    #start header {
+        margin-top: 4%;
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width: 940px) {
+    
+    #start {
+        height: auto;
+    }
+    
+    #start header {
+        padding-bottom: 2em;
+    }
+    
+    .container {
+        width: 640px;
+    }
+    
+    .row .span8, .row .span6, .row .span4 {
+        float: none !important;
+        width: auto !important
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+    /* passer tous les éléments de largeur fixe en largeur automatique */
+    body, .container, .row {
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    #start h2 {
+        font-size: 1.8em;
+    }
+
+    #resume h2 {
+        font-size: 2em;
+    }
+    
+    #start {
+        height: auto;
+    }
+    
+    #start header {
+        margin-top: 2em;
+        padding: 2em;
+    }
+    
+    .container {
+        padding: 0 1em;
+    }
+    
+    /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
+    img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+        max-width: 100%;
+    }
+    
+    /* conserver le ratio des images et empêcher les débordements de boîtes dûs aux border ou padding */
+    img {
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    
+    /* gestion des mots longs */
+    textarea, table, td, th, code, pre, samp {
+        word-wrap: break-word; /* césure forcée */
+    }
+    
+    code, pre, samp {
+        white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+    
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+    .row .span8, .row .span6, .row .span4 {
+        float: none !important;
+        width: auto !important
+    }
+
+    /* masquer les éléments superflus */
+    .mhide {
+        display: none !important;
+    }
+
+    /* Un message personnalisé */
+    body:before {
+        content: "Mobile version";
+        display: block;
+        background-color: #222;
+        color: #eee;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+
+    body, .container, .row {
+        min-width: 200px;
+    }
+
+    body:before {
+        content: "Hardcore mobile version";
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    details {
+        background: none;
+    }
+    
+    #start header {
+        letter-spacing: 0;
+    }
+    
+    #resume h2 {
+        padding-left: 0;
+        background: none;
+    }
+}

@@ -1,0 +1,7 @@
+#!/bin/sh
+path=../ui/js
+cat $path/src/jquery-min.js > $path/src/scripts.js
+cat $path/src/jquery.scrollto-min.js >> $path/src/scripts.js
+cat $path/src/jquery.localscroll-min.js >> $path/src/scripts.js
+cat $path/src/ui.js >> $path/src/scripts.js
+java -jar yuicompressor-2.4.7.jar --type js -o $path/scripts-min.js $path/src/scripts.js
