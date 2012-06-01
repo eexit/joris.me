@@ -15,8 +15,8 @@ header('Pragma: public');
     <meta charset="utf-8"/>
     <title>Joris Berthelot — PHP developer resume</title>
     <meta name="author" content="Joris Berthelot"/>
-    <meta name="description" content="Joris Berthelot's updated resume: PHP developer, Web server player, Zend PHP Certified Engineer wannabe"/>
-    <meta name="keywords" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c"/>
+    <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, Zend PHP Certified Engineer wannabe"/>
+    <meta name="keywords" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
     <!--
@@ -30,11 +30,11 @@ header('Pragma: public');
     <link rel="image_src" type="image/png" href="<?php echo $domain; ?>/img/icon.png"/>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain; ?>/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="<?php echo $domain; ?>/img/favicon.png"/>
-    <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-min.css" type="text/css"  media="all"/>
+    <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-min.css?v2" type="text/css"  media="all"/>
     <link rel="canonical" href="<?php echo $domain; ?>"/>
     <base href="<?php echo $domain; ?>"/>
     <!--[if lt IE 8]>
-        <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-poor-min.css" type="text/css"  media="all"/>
+        <link rel="stylesheet" href="<?php echo $domain; ?>/ui/styles/styles-poor-min.css?v2" type="text/css"  media="all"/>
     <![endif]-->
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,27 +42,11 @@ header('Pragma: public');
 </head>
 <body>
     <section id="start">
-        <div class="container ribbon"></div>
+        <div class="container ribbon mhide"></div>
         <header role="banner" class="container">
-            <h1 title="Awesome PHP developer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label important"><a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpdev_resume.pdf">Hire me!</a></span></sup></h1>
-            <ul class="floating traits mhide">
-                <li data-rel="tag">Passionated</li>
-                <li data-rel="tag">Bright</li>
-                <li data-rel="tag">Hard-worker</li>
-                <li data-rel="tag">Flexible</li>
-                <li data-rel="tag">Curious</li>
-                <li data-rel="tag">Autonomous</li>
-                <li data-rel="tag">Reliable</li>
-                <li data-rel="tag">Open-minded</li>
-                <li data-rel="tag">French</li>
-            </ul>
-            <ul class="floating contact">
-                <li class="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#74;&#111;&#114;&#105;&#115;&#37;&#50;&#48;&#66;&#101;&#114;&#116;&#104;&#101;&#108;&#111;&#116;&#60;&#106;&#111;&#114;&#105;&#115;&#64;&#98;&#101;&#114;&#116;&#104;&#101;&#108;&#111;&#116;&#46;&#116;&#101;&#108;&#62;&#63;&#98;&#111;&#100;&#121;&#61;&#37;&#48;&#100;&#37;&#48;&#97;&#37;&#48;&#100;&#37;&#48;&#97;&#45;&#45;&#37;&#48;&#100;&#37;&#48;&#97;&#82;&#101;&#102;&#101;&#114;&#101;&#114;&#58;&#37;&#50;&#48;&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#106;&#111;&#114;&#105;&#115;&#46;&#109;&#101;" rel="me" title="Cheers me!">joris<!-- berthelot -->@<!-- joris -->berthelot.<!-- telnic -->tel</a></li>
-                <li class="twitter">@<a href="http://twitter.com/joris_berthelot" rel="me" title="Follow me on Twitter">joris_berthelot</a></li>
-            </ul>
-            <h2 title="This is what I'm doing right now...">I am majoring in Computer Science Engineering MSc and,<br>aside to my studies, I am a <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> and more recently, <abbr title="Ruby on Rails">RoR</abbr> developer...</h2>
-            <!-- <h2 title="This is what I'm doing right now...">I am majoring in Computer Science Engineering MSc and,<br>for years now, I keep loving <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> language and Web coolness...</h2> -->
-            <p class="btnlnks"><a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpdev_resume.pdf" title="Get the latest version of my resume" class="btn danger">Get resume</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="#resume" class="btn" title="Check out the full version online">check it out!</a></p>
+            <h1 title="Awesome PHP developer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hired</a></span></sup></h1>
+            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc majoring student,<br>and a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> developer but also an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpdev_resume.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -72,22 +56,22 @@ header('Pragma: public');
                 <h2 title="Study background">Educational background</h2>
                 <div>
                     <p><strong>Majoring: Computer Science Engineering MSc</strong></p>
-                    <details>Software, system engineering &amp; architecture, <abbr title="Information System">IS</abbr> auditing, numeric contents management, project management</details>
+                    <details><summary>Software, system engineering &amp; architecture, <abbr title="Information System">IS</abbr> auditing, numeric contents management, project management</summary></details>
                     <aside>2010, 2 yr, <a href="http://sciences.univ-larochelle.fr/Master-Ingenierie-Informatique.html">D&eacute;partement Informatique</a>, Universit&eacute; La Rochelle, France.</aside>
                 </div>
                 <div>
                     <p><strong>Telecommunications &amp; Network Professional Bachelor's Degree, Web Developer concentration</strong> with honours</p>
-                    <details>Web development, Zend Framework, Java, <abbr title="Information Technology">IT</abbr></details>
+                    <details><summary>Web development, Zend Framework, Java, <abbr title="Information Technology">IT</abbr></summary></details>
                     <aside>2008, 1 yr, <a href="http://www.insset.u-picardie.fr/site/licencepro_web"><abbr title="INstitut Sup&eacute;rieur des Sciences Et Techniques">INSSET</abbr></a> Saint-Quentin, Universit&eacute; Jules Verne de Picardie, France.</aside>
                 </div>
                 <div>
                     <p><strong>Communication, Network and Services Higher National Diploma</strong></p>
-                    <details>Multimedia creation, art, languages, communication, development, <abbr title="Information Technology">IT</abbr></details>
+                    <details><summary>Multimedia creation, art, languages, communication, development, <abbr title="Information Technology">IT</abbr></summary></details>
                     <aside>2006, 2 yr, <a href="http://serecom.univ-tln.fr"><abbr title="Institut Universitaire Technologique">IUT</abbr> <abbr title="Services et R&eacute;seaux de Communication">SRC</abbr></a> Saint-Rapha&euml;l, Universit&eacute; du Sud Toulon-Var, France.</aside>
                 </div>
                 <div>
                     <p><strong>Laboratory Sciences High School Diploma</strong></p>
-                    <details>Biochemistry, biological engineering option</details>
+                    <details><summary>Biochemistry, biological engineering option</summary></details>
                     <aside>2004, 2 yr, Lyc&eacute;e Alexis de Tocqueville, Grasse, France.</aside>
                 </div>
             </section>
@@ -97,9 +81,12 @@ header('Pragma: public');
                     <dt id="2012">2012</dt>
                     <dd>
                         <dl>
-                            <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York, USA</small></dt>
+                            <dt>Current employer: <a href="http://www.bemycity.com">BeMyCity</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
+                            <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr>/Magento intern developer</dd>
+                            <dd><details><summary>Git, <abbr title="Continuous Integration">CI</abbr>, code <abbr title="Quality Assurance">QA</abbr>, Magento Enterprise, idea catalyst</summary></details></dd>
+                            <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
                             <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> and Ruby on Rails intern developer, 9 wk</dd>
-                            <dd><details>Database syncing, Wordpress, Ruby on Rails, MongoDB</details></dd>
+                            <dd><details><summary>Database syncing, Wordpress, Ruby on Rails, MongoDB</summary></details></dd>
                         </dl>
                     </dd>
                     <dt id="2011">2011</dt>
@@ -108,7 +95,7 @@ header('Pragma: public');
                             <dt><a href="http://www.clever-age.com">Clever Age</a> <small>in Lyon, France</small></dt>
                             <dd>Drupal consultant/developer, 8 wk</dd>
                             <dd>Drupal intern developer, 10 wk</dd>
-                            <dd><details>Drupal, multi-domain, SASS, team work</details></dd>
+                            <dd><details><summary>Drupal, multi-domain, SASS, team work</summary></details></dd>
                         </dl>
                     </dd>
                     <dt id="2010">2010</dt>
@@ -116,7 +103,7 @@ header('Pragma: public');
                         <dl>
                             <dt><a href="http://www.internet-selection.net">Internet-Selection</a> <small>in Lyon, France</small></dt>
                             <dd>Telecommuting <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> developer, 2 mo</dd>
-                            <dd><details>Web application auditing, SEO tool development, TDD, PHPUnit, Zend components, automomy</details></dd>
+                            <dd><details><summary>Web application auditing, SEO tool development, TDD, PHPUnit, Zend components, automomy</summary></details></dd>
                         </dl>
                     </dd>
                     <dt id="2009">2009</dt>
@@ -124,7 +111,7 @@ header('Pragma: public');
                         <dl>
                             <dt><a href="http://www.sqli.com">SQLI Group</a> <small>in Lyon, France</small></dt>
                             <dd>Intern developer, 5 mo</dd>
-                            <dd><details>Adobe Flex, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, Zend_Amf <abbr title="Research &amp; Development">R&amp;D</abbr>, Zend Framework, Centura, ergonomy</details></dd>
+                            <dd><details><summary>Adobe Flex, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, Zend_Amf <abbr title="Research &amp; Development">R&amp;D</abbr>, Zend Framework, Centura, ergonomy</summary></details></dd>
                         </dl>
                     </dd>
                 </dl>
@@ -134,13 +121,13 @@ header('Pragma: public');
                         <dl>
                             <dt><a href="http://www.be-zend.org">Be-Zend</a> <small>in St-Quentin, France</small></dt>
                             <dd>Project manager and speaker, 6 mo</dd>
-                            <dd><details>Project management, external relation, Website development, graphic identity creation, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, Zend Framework, Dojo toolkit</details></dd>
+                            <dd><details><summary>Project management, external relation, Website development, graphic identity creation, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, Zend Framework, Dojo toolkit</summary></details></dd>
                             <dt><a href="http://www.normaweb.fr">Normaweb</a> <small>in Les Adrets, France</small></dt>
                             <dd>Lead <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> developer, 7 wk</dd>
-                            <dd><details>Technological watch, database design, data transfers responsible, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, MooTools</details></dd>
+                            <dd><details><summary>Technological watch, database design, data transfers responsible, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, MooTools</summary></details></dd>
                             <dt><a href="http://www.ckc-net.com">CKC-Net</a> <small>in Sophia-Antipolis, France</small></dt>
                             <dd>Intern Web developer, 11 wk</dd>
-                            <dd><details>Project management, community website development, integration testing, recette, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, jQuery</details></dd>
+                            <dd><details><summary>Project management, community website development, integration testing, recette, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, jQuery</summary></details></dd>
                         </dl>
                     </dd>
                     <dt id="2007">2007</dt>
@@ -148,7 +135,7 @@ header('Pragma: public');
                         <dl>
                             <dt><a href="http://www.ccazur.com">CCAZUR FRANCE</a> <small>in Cogolin, France</small></dt>
                             <dd>Web developer, 4 wk</dd>
-                            <dd><details>Major development, database design, algorithmics, Web integration, integration tests, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, MySQL, JavaScript</details></dd>
+                            <dd><details><summary>Major development, database design, algorithmics, Web integration, integration tests, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, MySQL, JavaScript</summary></details></dd>
                             <dd>Intern communication analist, 10 wk</dd>
                         </dl>
                     </dd>
@@ -158,9 +145,9 @@ header('Pragma: public');
                 <h2 title="Technological skills">Technologies playground</h2>
                 <dl class="span8">
                     <dt id="development">Development</dt>
-                    <dd>Back-end developement (<abbr title="PHP: Hypertext PreProcessor">PHP</abbr>5 + <abbr title="Framework">FW</abbr>, <abbr title="Server Query Language">SQL</abbr>, <abbr title="Test Driven Development">TDD</abbr>)</dd>
+                    <dd>Back-end developement (<abbr title="PHP: Hypertext PreProcessor">PHP</abbr>5.3 + <abbr title="Framework">FW</abbr>, <abbr title="Server Query Language">SQL</abbr>, <abbr title="Test Driven Development">TDD</abbr>)</dd>
                     <dd>Application programing (Java, C, AppleScript)</dd>
-                    <dd>Standards worshipper (<abbr title="World Wide Web Consortium">W3C</abbr>, Coding Styles, <abbr title="Don't Repeat Yourself">DRY</abbr>, <abbr title="Keep It Simple and Stupid">KISS</abbr>)</dd>
+                    <dd>Standards worshipper (<abbr title="World Wide Web Consortium">W3C</abbr>, Coding Styles, <abbr title="Don't Repeat Yourself">DRY</abbr>, <abbr title="Keep It Super Simple">KISS</abbr>, <abbr title="Less Is a Prefered Solution">LIPS</abbr>)</dd>
                     <dd>Team player (Agile methods, Git, SVN)</dd>
                 </dl>
                 <dl class="span8">
@@ -219,7 +206,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2012-04-14</p>
+                    <p>Last updated: 2012-06-01</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
