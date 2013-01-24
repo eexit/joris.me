@@ -20,11 +20,11 @@ header('Pragma: public');
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
     <!--
-    <meta property="og:title" content="Joris Berthelot - PHP developer resume"/>
+    <meta property="og:title" content="Joris Berthelot - PHP engineer resume"/>
     <meta property="og:url" content="<?php echo $domain; ?>"/>
     <meta property="og:image" content="<?php echo $domain; ?>/img/icon.png"/>
-    <meta property="og:site_name" content="Joris Berthelot - PHP developer resume"/>
-    <meta property="og:description" content="Joris Berthelot's updated resume: PHP developer, Web server player, Zend PHP Certified Engineer wannabe/>
+    <meta property="og:site_name" content="Joris Berthelot - PHP engineer resume"/>
+    <meta property="og:description" content="Joris Berthelot's updated resume: PHP engineer, Web server player, Zend PHP Certified Engineer wannabe/>
     -->
     <link rel="alternate" type="application/rdf+xml" href="<?php echo $domain; ?>/index.rdf"/>
     <link rel="image_src" type="image/png" href="<?php echo $domain; ?>/img/icon.png"/>
