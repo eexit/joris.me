@@ -13,7 +13,7 @@ header('Pragma: public');
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8"/>
-    <title>Joris Berthelot — PHP developer resume</title>
+    <title>Joris Berthelot — PHP engineer resume</title>
     <meta name="author" content="Joris Berthelot"/>
     <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, Zend PHP Certified Engineer wannabe"/>
     <meta name="keywords" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
@@ -44,9 +44,9 @@ header('Pragma: public');
     <section id="start">
         <div class="container ribbon mhide"></div>
         <header role="banner" class="container">
-            <h1 title="Awesome PHP developer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hired</a></span></sup></h1>
-            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc majoring student,<br>and a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> developer but also an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpdev_resume.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <h1 title="Awesome PHP engineer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label important"><a href="#experience">Hire me!</a></span></sup></h1>
+            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc majoring student,<br>and a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer but also an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_12413.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -78,12 +78,25 @@ header('Pragma: public');
             <section id="experience" class="row">
                 <h2 title="Working experience">Experience</h2>
                 <dl class="span8">
+                    <dt id="2013">2013</dt>
+                    <dd>
+                        <dl>
+                            <dt>Looking forward to start my career:</dt>
+                            <dd>
+                                <ul>
+                                    <li>Availabilty: September/October</li>
+                                    <li>Desired job type: permanent and full-time</li>
+                                    <li>Desired location: New York, <abbr title="United States of America">USA</abbr></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </dd>
                     <dt id="2012">2012</dt>
                     <dd>
                         <dl>
-                            <dt>Current employer: <a href="http://www.bemycity.com">BeMyCity</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
-                            <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr>/Magento intern developer</dd>
-                            <dd><details><summary>Git, <abbr title="Continuous Integration">CI</abbr>, code <abbr title="Quality Assurance">QA</abbr>, Magento Enterprise, idea catalyst</summary></details></dd>
+                            <dt><a href="http://www.bemycity.com">BeMyCity</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
+                            <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and <abbr title="Continuous Integration">CI</abbr>/<abbr title="Quality Assurance">QA</abbr>/<abbr title="Test Driven Development">TDD</abbr> supervisor intern, 9 mo</dd>
+                            <dd><details><summary>Git, Jenkins, Silex, Facebook <abbr title="Application Program Interface">API</abbr>, Magento Enterprise, idea catalyst</summary></details></dd>
                             <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
                             <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> and Ruby on Rails intern developer, 9 wk</dd>
                             <dd><details><summary>Database syncing, Wordpress, Ruby on Rails, MongoDB</summary></details></dd>
@@ -103,9 +116,11 @@ header('Pragma: public');
                         <dl>
                             <dt><a href="http://www.internet-selection.net">Internet-Selection</a> <small>in Lyon, France</small></dt>
                             <dd>Telecommuting <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> developer, 2 mo</dd>
-                            <dd><details><summary>Web application auditing, SEO tool development, TDD, PHPUnit, Zend components, automomy</summary></details></dd>
+                            <dd><details><summary>Web application auditing, <abbr title="Search Engine Optimization">SEO</abbr> tool development, <abbr title="Test Driven Development">TDD</abbr>, PHPUnit, Zend components, automomy</summary></details></dd>
                         </dl>
                     </dd>
+                </dl>
+                <dl class="span8">
                     <dt id="2009">2009</dt>
                     <dd>
                         <dl>
@@ -114,8 +129,6 @@ header('Pragma: public');
                             <dd><details><summary>Adobe Flex, <abbr title="PHP: Hypertext PreProcessor">PHP</abbr>, Zend_Amf <abbr title="Research &amp; Development">R&amp;D</abbr>, Zend Framework, Centura, ergonomy</summary></details></dd>
                         </dl>
                     </dd>
-                </dl>
-                <dl class="span8">
                     <dt id="2008">2008</dt>
                     <dd>
                         <dl>
@@ -152,7 +165,8 @@ header('Pragma: public');
                 </dl>
                 <dl class="span8">
                     <dt id="syseng">System engineering</dt>
-                    <dd>Web server configuration (*<abbr title="Apache MySQL PHP">AMP</abbr>)</dd>
+                    <dd><abbr title="Continuous Integration">CI</abbr> server &amp; deployment scripts (Jenkins, bash)</dd>
+                    <dd>Web server configuration and administration (*<abbr title="Apache MySQL PHP">AMP</abbr>)</dd>
                     <dd>Networking (<abbr title="Secure Shell">SSH</abbr>, <abbr title="File Transfert Protocol">FTP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>, <abbr title="Trivial File Transfer Protocol">TFTP</abbr>)</dd>
                     <dd>Architecture (<abbr title="Redundant Array of Independent Disks">RAID</abbr>, virtualization, load-balancing, clustering)</dd>
                     <dd>Operating systems (OSX, Debian-like, Fedora, <del>Windows</del>)</dd>
@@ -169,7 +183,7 @@ header('Pragma: public');
                     <p>Languages:</p>
                     <ul>
                         <li>French: mother tongue</li>
-                        <li>English: functional+</li>
+                        <li>English: fluent</li>
                         <li>Italian: basics</li>
                     </ul>
                 </div>
@@ -206,7 +220,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2012-06-01</p>
+                    <p>Last updated: 2013-01-24</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">

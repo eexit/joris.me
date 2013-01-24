@@ -572,6 +572,11 @@ dd {
     font-size: 1.1em;
 }
 
+dd li {
+    font-size: .9em;
+    padding: .2em 0;
+}
+
 dd > details {
     margin: 1em;
     font-size: .9em;

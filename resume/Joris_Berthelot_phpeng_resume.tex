@@ -22,11 +22,13 @@
 \usepackage[normalem]{ulem}
 \usepackage{fancyhdr}
 \usepackage{multirow}
+\usepackage{pifont}
+\usepackage[BrickRed,dvipsnames]{xcolor}
 
 % Variables here
 \def\name{Joris Berthelot}
-\def\title{PHP developer}
-\def\footerlink{http://joris.me/get/Joris\_Berthelot\_phpdev\_resume.pdf}
+\def\title{PHP engineer\\\large{Available for a full-time position in New York, USA}}
+\def\footerlink{http://joris.me}
 
 % The following metadata will show up in the PDF properties
 \hypersetup{
@@ -49,7 +51,7 @@
 \pagestyle{fancy}
 \thispagestyle{empty}
 \fancyhf{}
-\lhead{\name 's resume - PHP developer}
+\lhead{\name 's resume - PHP engineer}
 \rhead{\thepage}
 
 % Custom section fonts
@@ -80,27 +82,24 @@
 
 \begin{document}
     
-    % Place name at left
-    {\Huge \name} \\
-    {\Large \title}
-    
     % Alternatively, print name centered and bold:
     %\centerline{\huge \bf \name}
     
     \vspace{0.25in}
     
-    \begin{minipage}{0.6\linewidth}
-        30 Claver Pl \\
-        Brooklyn, NY 11238 \\
-        USA \\
+    % Place name at left
+    \begin{minipage}{0.65\linewidth}
+        {\Huge \name} \\
+        {\Large \title}
     \end{minipage}
-    \begin{minipage}{0.5\linewidth}
+    \begin{minipage}{\linewidth}
+        %\flushright
         \begin{tabular}{ll}
             Email: & \href{mailto:joris@berthelot.tel}{\tt joris@berthelot.tel} \\
-            Phone: & \href{callto:19172921968}{+1 (917)-292-1968} \\
-                   %& \href{http://joris.berthelot.tel}{\tt joris.berthelot.tel} \\
+            Skype: %& \href{callto:19172921968}{+1 917-292-1968} \\
+                   & \href{skype:joris-berthelot?add}{\tt joris-berthelot} \\
             Twitter: & \href{http://twitter.com/joris_berthelot}{@joris\_berthelot} \\
-            \textbf{Full resume:} & \href{http://joris.me}{\tt http://joris.me}
+            \textbf{\textcolor{BrickRed}{Full resume:}} & \textbf{\href{http://joris.me}{\uline{http://joris.me}}}
         \end{tabular}
     \end{minipage}
     
@@ -118,12 +117,12 @@
         \setlength{\tabcolsep}{0.6cm}
         \begin{tabular}{p{1cm}p{\textwidth}}
             \large{2012} & \begin{itemize}
-                \item Currently: PHP/Magento backend intern developer at \uline{\href{http://www.bemycity.com}{BeMyCity}}
-                \item PHP and Ruby on Rails intern developer at \uline{\href{http://www.ginlanemedia.com}{Gin Lane}}, 9 wk
+                \item PHP engineer and CI/QA/TDD supervisor intern at \uline{\href{http://www.bemycity.com}{BeMyCity}}, 9 mo
+                \item PHP and Ruby on Rails intern developer at \uline{\href{http://www.ginlanemedia.com}{Gin Lane}}, 9 wk \ding{74}
             \end{itemize} \\
             \large{2011} & \begin{itemize}
-                \item Drupal consultant/developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 8 wk
-                \item Drupal intern developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 10 wk
+                \item Drupal consultant/developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 8 wk \ding{74}
+                \item Drupal intern developer at \uline{\href{http://www.cleverage.com}{Clever Age}}, 10 wk \ding{74}
             \end{itemize} \\
             \large{2010} &  \begin{itemize}
                 \item Telecommuting PHP developer at \uline{\href{http://www.internet-selection.net}{Internet-Selection}}, 2 mo
@@ -133,7 +132,7 @@
             \end{itemize} \\
             \large{2008} &  \begin{itemize}
                 \item Project manager and speaker at \uline{\href{htt://www.be-zend.org}{Be-Zend}}, 6 mo
-                \item Lead PHP developer at \uline{\href{http://www.normaweb.fr}{Normaweb}}, 7 wk
+                \item Lead PHP developer at \uline{\href{http://www.normaweb.fr}{Normaweb}}, 7 wk \ding{74}
                 \item Intern Web developer at \uline{\href{http://www.ckc-net.com}{CKC-Net}}, 11 wk
             \end{itemize} \\
             \large{2007} &  \begin{itemize}
@@ -141,6 +140,11 @@
                 \item Intern communication analist at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 10 wk
             \end{itemize}
         \end{tabular}
+
+        \vfill
+        \begin{flushright}
+            \small{\ding{74} = job recomendation available}
+        \end{flushright}
         
     \section*{Technologies playground}
         
@@ -156,6 +160,7 @@
         \subsection*{System engineering}
             
             \begin{itemize}
+                \item CI server \& deployment scripts (Jenkins, bash) 
                 \item Web server configuration (*AMP)
                 \item Networking (SSH, FTP, DNS, DHCP, TFTP)
                 \item Architecture (RAID, virtualization, load-balancing, clustering)
@@ -165,7 +170,7 @@
     \section*{Additional information}
         
         \begin{itemize}
-            \item Languages: French (mt), English (func), Italian (basics)
+            \item Languages: French (mt), English (fluent), Italian (basics)
             \item Leisures: volley-ball, snowboard, mountain bike
             \item Hobbies: photography, festivals/concerts, cinema, travels, coding stuff
             \item Vehicle: driver licence owner
@@ -177,8 +182,7 @@
     % Footer
     \begin{center}
         \begin{footnotesize}
-            Last updated: \today \\
-            \href{\footerlink}{ \footerlink}
+            Document generated on \today \ \textendash\ Get the latest version of this document on \uline{\href{\footerlink}{ \footerlink}}
         \end{footnotesize}
     \end{center}
 \end{document}
