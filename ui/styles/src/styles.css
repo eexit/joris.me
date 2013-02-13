@@ -785,6 +785,10 @@ footer a[href^="http://"],
     background: url("/ui/img/sprite.png") -10px -375px no-repeat;
 }
 
+#technologies dd {
+    margin: .3em 0;
+}
+
 #miscelaneous {
     position: relative;
     z-index: 1;

@@ -44,9 +44,9 @@ header('Pragma: public');
     <section id="start">
         <div class="container ribbon mhide"></div>
         <header role="banner" class="container">
-            <h1 title="Awesome PHP engineer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label important"><a href="#experience">Hire me!</a></span></sup></h1>
-            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc majoring student,<br>and a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer but also an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_12413.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <h1 title="PHP engineer available (see below)"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hire me!</a></span></sup></h1>
+            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc student about to graduate,<br>a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_21413.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -57,7 +57,7 @@ header('Pragma: public');
                 <div>
                     <p><strong>Majoring: Computer Science Engineering MSc</strong></p>
                     <details><summary>Software, system engineering &amp; architecture, <abbr title="Information System">IS</abbr> auditing, numeric contents management, project management</summary></details>
-                    <aside>2010, 2 yr, <a href="http://sciences.univ-larochelle.fr/Master-Ingenierie-Informatique.html">D&eacute;partement Informatique</a>, Universit&eacute; La Rochelle, France.</aside>
+                    <aside>2010, 3 yr, <a href="http://sciences.univ-larochelle.fr/Master-Ingenierie-Informatique.html">D&eacute;partement Informatique</a>, Universit&eacute; La Rochelle, France.</aside>
                 </div>
                 <div>
                     <p><strong>Telecommunications &amp; Network Professional Bachelor's Degree, Web Developer concentration</strong> with honours</p>
@@ -78,7 +78,7 @@ header('Pragma: public');
             <section id="experience" class="row">
                 <h2 title="Working experience">Experience</h2>
                 <dl class="span8">
-                    <dt id="2013">2013</dt>
+                    <dt id="2013">2013 <span class="label success">Available</span></dt>
                     <dd>
                         <dl>
                             <dt>Looking forward to start my career:</dt>
@@ -175,14 +175,14 @@ header('Pragma: public');
             <section id="miscelaneous" class="row">
                 <h2 title="Better to know about me">Additional information</h2>
                 <div class="span8">
-                    <p>Leisures: volley-ball, snowboard, mountain bike</p>
-                    <p>Hobbies: photography, festivals/concerts, cinema, travels, coding stuff</p>
+                    <p>Sports: volleyball, snowboard, mountain bike</p>
+                    <p>Hobbies: photography, music festivals, travels, geek stuff</p>
                     <p>Vehicle: driver licence owner</p>
                 </div>
                 <div class="span4">
                     <p>Languages:</p>
                     <ul>
-                        <li>French: mother tongue</li>
+                        <li>French: native</li>
                         <li>English: fluent</li>
                         <li>Italian: basics</li>
                     </ul>
@@ -220,7 +220,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2013-01-24</p>
+                    <p>Last updated: 2013-02-14</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
