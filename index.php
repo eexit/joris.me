@@ -84,9 +84,9 @@ header('Pragma: public');
                             <dt>Looking forward to start my career:</dt>
                             <dd>
                                 <ul>
-                                    <li>Availabilty: September/October</li>
+                                    <li>Availabilty: how soon could you get me a visa? </li>
                                     <li>Desired job type: permanent and full-time</li>
-                                    <li>Desired location: New York, <abbr title="United States of America">USA</abbr></li>
+                                    <li>Desired location: New York City, <abbr title="United States of America">USA</abbr></li>
                                 </ul>
                             </dd>
                         </dl>
@@ -94,10 +94,10 @@ header('Pragma: public');
                     <dt id="2012">2012</dt>
                     <dd>
                         <dl>
-                            <dt><a href="http://www.bemycity.com">BeMyCity</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
+                            <dt><a href="http://www.bemycity.com">BeMyCity</a> <small>in New York City, <abbr title="United States of America">USA</abbr></small></dt>
                             <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and <abbr title="Continuous Integration">CI</abbr>/<abbr title="Quality Assurance">QA</abbr>/<abbr title="Test Driven Development">TDD</abbr> supervisor intern, 9 mo</dd>
                             <dd><details><summary>Git, Jenkins, Silex, Facebook <abbr title="Application Program Interface">API</abbr>, Magento Enterprise, idea catalyst</summary></details></dd>
-                            <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York, <abbr title="United States of America">USA</abbr></small></dt>
+                            <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York City, <abbr title="United States of America">USA</abbr></small></dt>
                             <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> and Ruby on Rails intern developer, 9 wk</dd>
                             <dd><details><summary>Database syncing, Wordpress, Ruby on Rails, MongoDB</summary></details></dd>
                         </dl>
