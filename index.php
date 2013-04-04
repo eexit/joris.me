@@ -13,10 +13,10 @@ header('Pragma: public');
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8"/>
-    <title>Joris Berthelot — PHP engineer resume</title>
+    <title>Joris Berthelot — PHP / Full Stack Engineer resume</title>
     <meta name="author" content="Joris Berthelot"/>
-    <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, Zend PHP Certified Engineer wannabe"/>
-    <meta name="keywords" content="php development web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
+    <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, back-end engineer, quick and passionate learner"/>
+    <meta name="keywords" content="php development full-stack back-end web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
     <!--
@@ -65,7 +65,7 @@ header('Pragma: public');
                     <aside>2008, 1 yr, <a href="http://www.insset.u-picardie.fr/site/licencepro_web"><abbr title="INstitut Sup&eacute;rieur des Sciences Et Techniques">INSSET</abbr></a> Saint-Quentin, Universit&eacute; Jules Verne de Picardie, France.</aside>
                 </div>
                 <div>
-                    <p><strong>Communication, Network and Services Higher National Diploma</strong></p>
+                    <p><strong>Communication, Network and Services Higher National Diploma</strong> with honours</p>
                     <details><summary>Multimedia creation, art, languages, communication, development, <abbr title="Information Technology">IT</abbr></summary></details>
                     <aside>2006, 2 yr, <a href="http://serecom.univ-tln.fr"><abbr title="Institut Universitaire Technologique">IUT</abbr> <abbr title="Services et R&eacute;seaux de Communication">SRC</abbr></a> Saint-Rapha&euml;l, Universit&eacute; du Sud Toulon-Var, France.</aside>
                 </div>
@@ -84,7 +84,7 @@ header('Pragma: public');
                             <dt>Looking forward to start my career:</dt>
                             <dd>
                                 <ul>
-                                    <li>Availabilty: how soon could you get me a visa? </li>
+                                    <li>Availabilty: July 2013 - Working authorization needed</li>
                                     <li>Desired job type: permanent and full-time</li>
                                     <li>Desired location: New York City, <abbr title="United States of America">USA</abbr></li>
                                 </ul>
@@ -94,7 +94,7 @@ header('Pragma: public');
                     <dt id="2012">2012</dt>
                     <dd>
                         <dl>
-                            <dt><a href="http://www.bemycity.com">BeMyCity</a> <small>in New York City, <abbr title="United States of America">USA</abbr></small></dt>
+                            <dt><a href="http://ohmygreen.com">Oh My Green!</a> <small>in New York City, <abbr title="United States of America">USA</abbr></small></dt>
                             <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and <abbr title="Continuous Integration">CI</abbr>/<abbr title="Quality Assurance">QA</abbr>/<abbr title="Test Driven Development">TDD</abbr> supervisor intern, 9 mo</dd>
                             <dd><details><summary>Git, Jenkins, Silex, Facebook <abbr title="Application Program Interface">API</abbr>, Magento Enterprise, idea catalyst</summary></details></dd>
                             <dt><a href="http://www.ginlanemedia.com">Gin Lane</a> <small>in New York City, <abbr title="United States of America">USA</abbr></small></dt>
@@ -153,20 +153,22 @@ header('Pragma: public');
                         </dl>
                     </dd>
                 </dl>
+            <p>Various experience in: photography, modeling/acting, sound recordist &amp; supermarket unpacker.<br>Professionally active since I was 17 year old.</p>
             </section>
             <section id="technologies" class="row">
                 <h2 title="Technological skills">Technologies playground</h2>
                 <dl class="span8">
                     <dt id="development">Development</dt>
-                    <dd>Back-end developement (<abbr title="PHP: Hypertext PreProcessor">PHP</abbr>5.3 + <abbr title="Framework">FW</abbr>, <abbr title="Server Query Language">SQL</abbr>, <abbr title="Test Driven Development">TDD</abbr>)</dd>
-                    <dd>Application programing (Java, C, AppleScript)</dd>
-                    <dd>Standards worshipper (<abbr title="World Wide Web Consortium">W3C</abbr>, Coding Styles, <abbr title="Don't Repeat Yourself">DRY</abbr>, <abbr title="Keep It Super Simple">KISS</abbr>, <abbr title="Less Is a Prefered Solution">LIPS</abbr>)</dd>
-                    <dd>Team player (Agile methods, Git, SVN)</dd>
+                    <dd>Front-end developement (<abbr title="HyperText Markup Language">HTML</abbr>5, <abbr title="Cascading Style Sheets">CSS</abbr>3, JavaScript + <abbr title="Framework">FW</abbr>, performance &amp; asset caching)</dd>
+                    <dd>Back-end developement (<abbr title="PHP: Hypertext PreProcessor">PHP</abbr>5.3+, Silex, Zend Framework, Symfony, MySQL, SQLite, Doctrine)</dd>
+                    <dd>Application programing (Java, AppleScript, Ruby, C, Python)</dd>
+                    <dd>Best practices &amp; standards worshipper (<abbr title="Test Driven Development">TDD</abbr>, <abbr title="Continuous Integration">CI</abbr>, <abbr title="World Wide Web Consortium">W3C</abbr>, Coding Styles, <abbr title="Don't Repeat Yourself">DRY</abbr>, <abbr title="Keep It Super Simple">KISS</abbr>, <abbr title="Less Is a Prefered Solution">LIPS</abbr>, <abbr title="Never Trust User Input">NTUI</abbr>)</dd>
+                    <dd>Team player (Agile methods, Git, SVN, LaTeX)</dd>
                 </dl>
                 <dl class="span8">
                     <dt id="syseng">System engineering</dt>
                     <dd><abbr title="Continuous Integration">CI</abbr> server &amp; deployment scripts (Jenkins, bash)</dd>
-                    <dd>Web server configuration and administration (*<abbr title="Apache MySQL PHP">AMP</abbr>)</dd>
+                    <dd>Web server configuration &amp; maintenance (*<abbr title="Apache MySQL PHP">AMP</abbr>)</dd>
                     <dd>Networking (<abbr title="Secure Shell">SSH</abbr>, <abbr title="File Transfert Protocol">FTP</abbr>, <abbr title="Domain Name Server">DNS</abbr>, <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>, <abbr title="Trivial File Transfer Protocol">TFTP</abbr>)</dd>
                     <dd>Architecture (<abbr title="Redundant Array of Independent Disks">RAID</abbr>, virtualization, load-balancing, clustering)</dd>
                     <dd>Operating systems (OSX, Debian-like, Fedora, <del>Windows</del>)</dd>
@@ -177,7 +179,7 @@ header('Pragma: public');
                 <div class="span8">
                     <p>Sports: volleyball, snowboard, mountain bike</p>
                     <p>Hobbies: photography, music festivals, travels, geek stuff</p>
-                    <p>Vehicle: driver licence owner</p>
+                    <p>Vehicles: driver licence owner, bike rider</p>
                 </div>
                 <div class="span4">
                     <p>Languages:</p>
@@ -220,7 +222,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2013-02-14</p>
+                    <p>Last updated: 2013-04-04</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
