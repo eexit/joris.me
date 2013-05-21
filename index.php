@@ -13,7 +13,7 @@ header('Pragma: public');
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8"/>
-    <title>Joris Berthelot — PHP / Full Stack Engineer resume</title>
+    <title>Joris Berthelot — PHP / Full-Stack Engineer resume</title>
     <meta name="author" content="Joris Berthelot"/>
     <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, back-end engineer, quick and passionate learner"/>
     <meta name="keywords" content="php development full-stack back-end web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
@@ -45,8 +45,8 @@ header('Pragma: public');
         <div class="container ribbon mhide"></div>
         <header role="banner" class="container">
             <h1 title="PHP engineer available (see below)"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hire me!</a></span></sup></h1>
-            <h2 title="This is what I'm doing right now...">I am a Computer Science Engineering MSc student about to graduate,<br>a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_4413.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <h2 title="This is what I'm doing right now...">I am actively looking for a first Web engineering job in the US,<br>a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_52113.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -55,7 +55,7 @@ header('Pragma: public');
             <section id="background">
                 <h2 title="Study background">Educational background</h2>
                 <div>
-                    <p><strong>Majoring: Computer Science Engineering MSc</strong></p>
+                    <p><strong>Computer Science Engineering MSc</strong> with honours</p>
                     <details><summary>Software, system engineering &amp; architecture, <abbr title="Information System">IS</abbr> auditing, numeric contents management, project management</summary></details>
                     <aside>2010, 3 yr, <a href="http://sciences.univ-larochelle.fr/Master-Ingenierie-Informatique.html">D&eacute;partement Informatique</a>, Universit&eacute; La Rochelle, France.</aside>
                 </div>
@@ -84,7 +84,7 @@ header('Pragma: public');
                             <dt>Looking forward to start my career:</dt>
                             <dd>
                                 <ul>
-                                    <li>Availabilty: July 2013 - Working authorization needed</li>
+                                    <li>Availabilty: <abbr title="As Soon As Possible">ASAP</abbr> - Working authorization needed</li>
                                     <li>Desired job type: permanent and full-time</li>
                                     <li>Desired location: New York City, <abbr title="United States of America">USA</abbr></li>
                                 </ul>
@@ -222,7 +222,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2013-04-04</p>
+                    <p>Last updated: 2013-05-21</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
