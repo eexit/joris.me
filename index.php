@@ -46,7 +46,7 @@ header('Pragma: public');
         <header role="banner" class="container">
             <h1 title="PHP engineer available (see below)"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hire me!</a></span></sup></h1>
             <h2 title="This is what I'm doing right now...">I am actively looking for a first Web engineering job in the US,<br>a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_52113.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_52913.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -65,12 +65,12 @@ header('Pragma: public');
                     <aside>2008, 1 yr, <a href="http://www.insset.u-picardie.fr/site/licencepro_web"><abbr title="INstitut Sup&eacute;rieur des Sciences Et Techniques">INSSET</abbr></a> Saint-Quentin, Universit&eacute; Jules Verne de Picardie, France.</aside>
                 </div>
                 <div>
-                    <p><strong>Communication, Network and Services Higher National Diploma</strong> with honours</p>
+                    <p><strong>Communication, Network and Services Associate's Degree</strong> with honours</p>
                     <details><summary>Multimedia creation, art, languages, communication, development, <abbr title="Information Technology">IT</abbr></summary></details>
                     <aside>2006, 2 yr, <a href="http://serecom.univ-tln.fr"><abbr title="Institut Universitaire Technologique">IUT</abbr> <abbr title="Services et R&eacute;seaux de Communication">SRC</abbr></a> Saint-Rapha&euml;l, Universit&eacute; du Sud Toulon-Var, France.</aside>
                 </div>
                 <div>
-                    <p><strong>Laboratory Sciences High School Diploma</strong></p>
+                    <p><strong>Science and Technology Laboratory Baccalaur&eacute;at</strong></p>
                     <details><summary>Biochemistry, biological engineering option</summary></details>
                     <aside>2004, 2 yr, Lyc&eacute;e Alexis de Tocqueville, Grasse, France.</aside>
                 </div>
@@ -222,7 +222,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2013-05-21</p>
+                    <p>Last updated: 2013-05-29</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
