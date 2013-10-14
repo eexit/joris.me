@@ -2,7 +2,7 @@
 function copyright ($year) { return $year < date('Y') ? $year . '-' . date('Y') : $year; }
 $domain = 'http://joris.me';
 $expiration = 3600 * 24 * 60; // 60 days
-date_default_timezone_set('America/New_York');
+date_default_timezone_set('Europe/Paris');
 header(sprintf('Cache-Control: public, max-age=%d, s-maxage=%d, must-revalidate, proxy-revalidate', $expiration, $expiration));
 header(sprintf('Expires: %s', date('r', time() + $expiration)));
 header(sprintf('Last-Modified: %s', date('r', getlastmod())));
@@ -16,7 +16,7 @@ header('Pragma: public');
     <title>Joris Berthelot — PHP / Full-Stack Engineer resume</title>
     <meta name="author" content="Joris Berthelot"/>
     <meta name="description" content="Joris Berthelot's updated resume: PHP developer, full stack, Web server player, back-end engineer, quick and passionate learner"/>
-    <meta name="keywords" content="php development full-stack back-end web developer system engineer html css javascript resume w3c msc master sciences oop java c new york usa"/>
+    <meta name="keywords" content="php development full-stack back-end web developer system engineer html css javascript resume w3c msc master sciences oop java c lille france"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
     <!--
@@ -44,9 +44,9 @@ header('Pragma: public');
     <section id="start">
         <div class="container ribbon mhide"></div>
         <header role="banner" class="container">
-            <h1 title="PHP engineer available (see below)"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label success"><a href="#experience">Hire me!</a></span></sup></h1>
-            <h2 title="This is what I'm doing right now...">I am actively looking for a first Web engineering job in the US,<br>a passionate <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_52913.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <h1 title="PHP engineer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label"><a href="#experience">Hired</a></span></sup></h1>
+            <h2 title="This is what I'm doing right now...">I am an enthusiast <abbr title="PHP: Hypertext PreProcessor">PHP</abbr> engineer, passionate about elegant code<br>and secondarily an opportunist <a href="http://photography.eexit.net" title="Check out my photography portfolio!">photographer</a>.</h2>
+            <p class="btnlnks"><a href="http://joris.berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_101413.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
@@ -65,7 +65,7 @@ header('Pragma: public');
                     <aside>2008, 1 yr, <a href="http://www.insset.u-picardie.fr/site/licencepro_web"><abbr title="INstitut Sup&eacute;rieur des Sciences Et Techniques">INSSET</abbr></a> Saint-Quentin, Universit&eacute; Jules Verne de Picardie, France.</aside>
                 </div>
                 <div>
-                    <p><strong>Communication, Network and Services Associate's Degree</strong> with honours</p>
+                    <p><strong>Communication, Network and Services Associate's Degree</strong></p>
                     <details><summary>Multimedia creation, art, languages, communication, development, <abbr title="Information Technology">IT</abbr></summary></details>
                     <aside>2006, 2 yr, <a href="http://serecom.univ-tln.fr"><abbr title="Institut Universitaire Technologique">IUT</abbr> <abbr title="Services et R&eacute;seaux de Communication">SRC</abbr></a> Saint-Rapha&euml;l, Universit&eacute; du Sud Toulon-Var, France.</aside>
                 </div>
@@ -78,17 +78,11 @@ header('Pragma: public');
             <section id="experience" class="row">
                 <h2 title="Working experience">Experience</h2>
                 <dl class="span8">
-                    <dt id="2013">2013 <span class="label success">Available</span></dt>
+                    <dt id="2013">2013</dt>
                     <dd>
                         <dl>
-                            <dt>Looking forward to start my career:</dt>
-                            <dd>
-                                <ul>
-                                    <li>Availabilty: <abbr title="As Soon As Possible">ASAP</abbr> - Working authorization needed</li>
-                                    <li>Desired job type: permanent and full-time</li>
-                                    <li>Desired location: New York City, <abbr title="United States of America">USA</abbr></li>
-                                </ul>
-                            </dd>
+                            <dt><a href="http://www.profilsoft.com">ProfilSoft</a> <small>in Lille, France</small></dt>
+                            <dd><abbr title="PHP: Hypertext PreProcessor">PHP</abbr> <abbr title="Research &amp; Development">R&amp;D</abbr> engineer, since Oct.</dd>
                         </dl>
                     </dd>
                     <dt id="2012">2012</dt>
@@ -153,7 +147,7 @@ header('Pragma: public');
                         </dl>
                     </dd>
                 </dl>
-            <p>Various experience in: photography, modeling/acting, sound recordist &amp; supermarket unpacker.<br>Professionally active since I was 17 year old.</p>
+            <p>Various experience in: photography, modeling/acting, sound recordist &amp; supermarket unpacker.<br>Professionally active since I was 17 years old.</p>
             </section>
             <section id="technologies" class="row">
                 <h2 title="Technological skills">Technologies playground</h2>
@@ -222,7 +216,7 @@ header('Pragma: public');
                 </div>
                 <div class="span4">
                     <p>Back to <a href="#start" rel="start" title="Back to the top of this page">the top</a></p>
-                    <p>Last updated: 2013-05-29</p>
+                    <p>Last updated: 2013-10-15</p>
                     <p><small>French-cooked and designed by Joris Berthelot &copy; <?php echo copyright(2011); ?>, with help of <a href="http://twitter.github.com/bootstrap">Bootstrap</a>.</small></p>
                 </div>
                 <div class="span4">
