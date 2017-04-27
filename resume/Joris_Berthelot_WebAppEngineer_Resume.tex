@@ -1,0 +1,222 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[normalem]{ulem}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{sectsty}
+\usepackage{fontawesome}
+\usepackage[USenglish,nodayofweek]{datetime}
+\usepackage[BrickRed,dvipsnames]{xcolor}
+
+% Variables here
+\def\name{Joris Berthelot}
+\def\title{WebApp Software Engineer}
+\def\resumeurl{http://joris.me}
+\def\phoneurl{http://berthelot.tel}
+\def\linkedinurl{https://www.linkedin.com/in/eexit}
+\def\githuburl{https://github.com/eexit}
+\def\twitterurl{https://www.twitter.com/JorisBerthelot}
+\def\500pxurl{https://500px.com/eexit}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+    colorlinks = true,
+    urlcolor = black,
+    pdfauthor = {\name},
+    pdfkeywords = {Resume, WebApp, Software, Engineer, SaaS, PHP, Golang, API, ReST},
+    pdftitle = {\name 's resume},
+    pdfsubject = {\name 's resume},
+    pdfpagemode = UseNone
+}
+
+\geometry{
+    body={6.5in, 8.5in},
+    left=1.0in,
+    top=1.25in
+}
+
+% Customize page headers
+\pagestyle{fancy}
+\thispagestyle{empty}
+\fancyhf{}
+\lhead{\name 's resume - \title}
+\rhead{\thepage}
+
+% Custom section fonts
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+% Space before tab columns
+%\setlength{\tabcolsep}{0.6cm}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+    \begin{list}{}{
+        \setlength{\leftmargin}{1.5em}
+    }
+}{
+    \end{list}
+}
+
+\begin{document}
+
+    \vspace{0.25in}
+
+    % Place name at left
+    \begin{minipage}{0.65\linewidth}
+        {\Huge \name } \\[0.5cm]
+        {\Large \title}
+    \end{minipage}
+    \begin{minipage}{\linewidth}
+        \begin{tabular}{ll}
+            Email: & \href{mailto:joris@berthelot.tel}{\tt joris@berthelot.tel} \\[0.3cm]
+            Phone: & \href{tel:33662034543}{+33 662-034-543} \\[0.3cm]
+            Social: &
+                \href{\linkedinurl}{{\textcolor[RGB]{0,123,181}\faLinkedinSquare}} \
+                \href{\githuburl}{\faGithub} \
+                \href{\twitterurl}{{\textcolor[RGB]{85,172,238}\faTwitter}} \
+                \href{\500pxurl}{\fa500Px}
+        \end{tabular}
+    \end{minipage}
+
+    \vspace{0.6cm}
+
+    \section*{\faCubes{} Experience}
+
+        \setlength{\tabcolsep}{0.5cm}
+        \begin{tabular}{p{1cm}p{\textwidth}}
+            \small{Currently} & \vspace{-6mm} \begin{itemize}
+                \item SaaS Engineer at \uline{\href{http://www.careerbuilder.com}{CareerBuilder}}, since Oct. 2013
+            \end{itemize} \\
+            \large{2012} & \vspace{-6mm} \begin{itemize}
+                \item PHP engineer and CI/QA/TDD supervisor intern at \uline{\href{https://www.ohmygreen.com}{oh my green}}, 9 mo
+                \item PHP and Ruby on Rails intern developer at \uline{\href{http://www.ginlanemedia.com}{Gin Lane}}, 9 wk {\footnotesize \faThumbsOUp}
+            \end{itemize} \\
+            \large{2011} & \vspace{-6mm} \begin{itemize}
+                \item Drupal consultant/developer at \uline{\href{http://www.clever-age.com}{Clever Age}}, 8 wk {\footnotesize \faThumbsOUp}
+                \item Drupal intern developer at \uline{\href{http://www.clever-age.com}{Clever Age}}, 10 wk {\footnotesize \faThumbsOUp}
+            \end{itemize} \\
+            \large{2010} & \vspace{-6mm} \begin{itemize}
+                \item Telecommuting PHP developer at \sout{Internet-Selection}, 2 mo
+            \end{itemize} \\
+            \large{2009} & \vspace{-6mm} \begin{itemize}
+                \item Intern developer at \uline{\href{http://www.sqli.com}{SQLI Group}}, 5 mo
+            \end{itemize} \\
+            \large{2008} & \vspace{-6mm} \begin{itemize}
+                \item Project manager and speaker at \uline{\href{http://www.be-zend.org}{Be-Zend}}, 6 mo
+                \item Lead PHP developer at \uline{\href{http://www.normaweb.fr}{Normaweb}}, 7 wk {\footnotesize \faThumbsOUp}
+                \item Intern Web developer at \uline{\href{http://www.ckc-net.com}{CKC-Net}}, 11 wk
+            \end{itemize} \\
+            \large{2007} & \vspace{-6mm} \begin{itemize}
+                \item Web developer at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 4 wk
+                \item Intern communication analist at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 10 wk
+            \end{itemize}
+        \end{tabular}
+
+        \vspace{0.2cm}
+
+        \begin{center}
+        \small{Experience descriptions available on \href{\linkedinurl}{{\textcolor[RGB]{0,123,181}\faLinkedinSquare}}}
+        \end{center}
+
+        \vspace{0.3cm}
+
+    \section*{\faGraduationCap{} Educational background}
+
+        \setlength{\tabcolsep}{0.5cm}
+        \begin{tabular}{p{1cm}p{\textwidth}}
+            \large{2013}    & Computer Science Engineering MSc {\footnotesize \faTrophy} \\
+                            & \footnotesize \faUniversity{} Université de La Rochelle, France \\[0.3cm]
+            \large{2009}    & Telecommunication \& Network Professional Bachelor's Degree, Web Developer concentration {\footnotesize \faTrophy\ \faThumbsOUp} \\
+                            & \footnotesize \faUniversity{} Université Jules Verne de Picardie, France \\[0.3cm]
+            \large{2008}    & Communication, Network and Services Associate's Degree \\
+                            & \footnotesize \faUniversity{} Université du Sud Toulon-Var, France \\[0.3cm]
+            \large{2006}    & Science and Technology Laboratory Baccalauréat \\
+                            & \footnotesize \faUniversity{} Lycée Alexis de Tocqueville, Grasse, France
+        \end{tabular}
+
+        \vfill
+
+        \begin{flushright}
+            \begin{footnotesize}
+                \faTrophy\ = graduated with honours \\
+                \faThumbsOUp = recomendation available upon request
+            \end{footnotesize}
+        \end{flushright}
+
+    \section*{\faCode{} Technologies playground}
+
+        \subsection*{WebApp engineering}
+
+            \begin{itemize}
+                \item Frontend (HTML5, SCSS, JavaScript, performance, responsiveness, mobile first)
+                \item Backend (PHP, Golang, NodeJS, Redis, MySQL, ReST API, SDK)
+                \item Distributed Messaging (RabbitMQ, Amazon SQS)
+                \item Best practise and standards worshipper (Design Patterns, DDD, Lean, monitoring)
+                \item Team process player (Scrum, Jira, Git, Markdown, \LaTeX)
+            \end{itemize}
+
+        \subsection*{Platform engineering}
+
+            \begin{itemize}
+                \item Provisioning and deployment (Docker, CoreOS, CircleCI, \sout{Vagrant})
+                \item Cloud Computing (Amazon Web Services, DigitalOcean)
+                \item Networking (SSH, FTP, DNS, DHCP, TFTP)
+                \item Architecture (RAID, HA, failover)
+                \item Operating systems (macOS, Unix, \sout{Windows})
+            \end{itemize}
+
+        \vspace{0.6cm}
+
+    \section*{\faPaperPlaneO{} Additional information}
+
+        \begin{itemize}
+            \item Languages: French (native), English (fluent), Italian (basics)
+            \item Sports: volleyball, snowboard, mountain bike
+            \item Hobbies: photography, music festivals, travels, shopping
+            \item Vehicles: driver licence owner, bike \& motorbike rider
+            \item Tourism: France, Italy, Egypt, Tunisia, Turkey, Morocco, Ireland, UK, Chile, USA, Iceland, Portugal
+        \end{itemize}
+
+        \vspace{1cm}
+        Professionally active since I was 17 years old.\\
+        I lived one year in New York, NY and I regularly visit Atlanta, GA for business purposes.
+
+        \vfill
+
+        % Footer
+        \begin{center}
+            \begin{footnotesize}
+                \LaTeX{} resume generated on \today
+            \end{footnotesize}
+        \end{center}
+\end{document}
