@@ -46,7 +46,7 @@ header('Pragma: public');
         <header role="banner" class="container">
             <h1 title="PHP engineer"><a href="<?php echo $domain; ?>" rel="me">Joris Berthelot</a> <sup><span class="label"><a href="https://www.linkedin.com/in/eexit">Hired</a></span></sup></h1>
             <h2 title="This is what I'm doing right now...">I am an enthusiast WebApp Engineer, passionate about elegant code<br>and secondarily an opportunist <a href="http://joris.berthelot.photography" title="Check out my photography portfolio!">photographer</a>.</h2>
-            <p class="btnlnks"><a href="http://berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_2017-04-27.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
+            <p class="btnlnks"><a href="http://berthelot.tel" title="Cheers me!" class="btn danger">Contact me</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="<?php echo $domain; ?>/get/Joris_Berthelot_phpeng_resume_2018-01-02.pdf" class="btn" title="Get the latest version of my resume">get my resume!</a></p>
         </header>
         <a href="http://github.com/eexit" rel="me" class="forkme mhide" title="Fork me on GitHub"><span>Fork me on GitHub</span></a>
     </section>
