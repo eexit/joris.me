@@ -19,6 +19,6 @@ If you are interested in its features, read this article: [http://blog.eexit.net
 
     $ brew cask install basictex
     $ open /usr/local/Caskroom/basictex/*/mactex-basictex-*.pkg
-    $ sudo tlmgr install collection-fontsrecommended multirow sectsty datetime fmtcount
+    $ sudo tlmgr update --self && tlmgr install collection-fontsrecommended multirow sectsty datetime fmtcount fontawesome
     $ cd resume
-    $ pdflatex -shell-escape -halt-on-error Joris_Berthelot_WebAppEngineer_Resume.tex
+    $ xelatex -halt-on-error -shell-escape Joris_Berthelot_WebAppEngineer_Resume.tex
