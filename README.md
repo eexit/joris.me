@@ -2,11 +2,11 @@
 
 Source code of my online resume: [http://joris.me](http://joris.me).
 
-If you are interested in its features, read this article: [http://blog.eexit.net/2011/11/introducing-joris-me.html](http://blog.eexit.net/2011/11/introducing-joris-me.html).
+If you are interested in its features, read this article: [http://blog.eexit.net/introducing-joris-me](http://blog.eexit.net/2011/11/introducing-joris-me.html).
 
 ## Run
 
-    $ docker-compose up
+    $ docker-compose up dev
 
 Go to [http://localhost:8080](http://localhost:8080).
 
