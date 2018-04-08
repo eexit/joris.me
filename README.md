@@ -10,7 +10,12 @@ If you are interested in its features, read this article: [http://blog.eexit.net
 
 Go to [http://localhost:8080](http://localhost:8080).
 
+### Production
+
 Before deploying, you need to build the PDF version of the resume and leave it into the directory with appropriate name (referenced in `index.html`).
+Ensure you have a [nginx-proxy](https://github.com/jwilder/nginx-proxy) running first, then:
+
+    $ docker-compose up -d prod
 
 ### Builds the assets
 

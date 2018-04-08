@@ -23,4 +23,4 @@ app.get('/', (req, res, next) => {
 app.get('/index.rdf', (req, res, next) => {
     res.sendFile(path.join(__dirname, 'index.rdf'));
 });
-app.listen(8080, () => logger.info('Started joris.me on :8080'));
+app.listen(80, () => logger.info('Started joris.me on :80'));

@@ -4,5 +4,5 @@ COPY . .
 RUN apk add --update --no-cache make gcc g++ python && \
     npm install --production --loglevel error && \
     apk del make gcc g++ python
-EXPOSE 8080
+EXPOSE 80
 CMD ["npm", "start"]
