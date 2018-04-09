@@ -1,2 +1,3 @@
-node_modules
-resume/*.pdf
+firebase-debug.log
+resume/*
+!resume/*.tex

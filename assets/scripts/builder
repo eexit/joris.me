@@ -1,0 +1,7 @@
+#!/bin/sh
+cwd=$(dirname "$0")
+cat $cwd/jquery-min.js > $cwd/scripts.js
+cat $cwd/jquery.scrollto-min.js >> $cwd/scripts.js
+cat $cwd/jquery.localscroll-min.js >> $cwd/scripts.js
+cat $cwd/ui.js >> $cwd/scripts.js
+yuicompressor --type js -o public/ui/js/scripts-min.js $cwd/scripts.js
