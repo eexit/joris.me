@@ -1,3 +1,4 @@
 firebase-debug.log
 resume/*
 !resume/*.tex
+public/*.pdf
