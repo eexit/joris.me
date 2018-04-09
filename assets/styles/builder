@@ -1,0 +1,7 @@
+#!/bin/sh
+cwd=$(dirname "$0")
+cat $cwd/base.css > $cwd/styles.css
+cat $cwd/bootstrap.min.css >> $cwd/styles.css
+cat $cwd/screen.css >> $cwd/styles.css
+yuicompressor --type css -o public/ui/styles/styles-min.css $cwd/styles.css
+yuicompressor --type css -o public/ui/styles/styles-poor-min.css $cwd/styles-poor.css

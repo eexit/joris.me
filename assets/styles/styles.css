@@ -706,6 +706,7 @@ p.center {
     border-top: 3px #b02a28 solid;
     position: relative;
     z-index: 100;
+    padding-top: 6rem;
 }
 
 #start header {
@@ -934,6 +935,7 @@ footer a[href^="http://"],
 
     #start {
         height: auto;
+        padding-top: 0;
     }
 
     #start header {

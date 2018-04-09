@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="https://joris.me">
+        <dc:title>Joris Berthelot — WebApp Engineer Resume</dc:title>
+        <dc:author>Joris Berthelot</dc:author>
+        <dc:creator>Joris Berthelot</dc:creator>
+        <dc:description>Joris Berthelot's updated resume: webapp software engineer, full stack, web server player, back-end engineer, quick and passionate learner</dc:description>
+        <dc:subject>careerbuilder, software, engineer, lille, france, php, go, nodejs, docker, aws, developer, api, agile, golang, testing, scaling, monitoring, metrics, messaging, ci, github, opensource</dc:subject>
+        <dc:date>2018-04-09</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:identifier>https://joris.me</dc:identifier>
+        <dc:rights>Copyright (c) 2018, Joris Berthelot</dc:rights>
+    </rdf:Description>
+</rdf:RDF>

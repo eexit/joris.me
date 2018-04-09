@@ -1,7 +1,0 @@
-.git
-bin
-node_modules
-resume/*
-!resume/*.pdf
-*.md
-ui/*/src*
