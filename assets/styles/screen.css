@@ -35,7 +35,7 @@ html {
 
 body {
     height: 100%;
-    background: #fff url("/ui/img/background-10.png");
+    background: #fff;
 }
 
 p, dt, li, details {
@@ -192,11 +192,11 @@ p.center {
 #start a:visited,
 #start a:hover,
 #start a:active {
-    color: #404040;
+    /* color: #404040; */
 }
 
 #start {
-    border-top: 3px #b02a28 solid;
+    border-top: 5px #28a745 solid;
     position: relative;
     z-index: 100;
     padding-top: 6rem;
@@ -222,12 +222,16 @@ p.center {
 #start header .btnlnks a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0;
-    color: #333;
+    /* color: #333; */
 }
 
 #start header .btnlnks a.danger,
 #start header .label a {
     color: #eee;
+}
+
+#start header .label {
+    background-color: #28a745;
 }
 
 /* =============== */
@@ -473,13 +477,13 @@ footer a[href^="http://"],
     }
 
     /* Un message personnalisé */
-    body:before {
+    /* body:before {
         content: "Mobile version";
         display: block;
         background-color: #222;
         color: #eee;
         text-align: center;
-    }
+    } */
 }
 
 @media (max-width: 360px) {
@@ -488,9 +492,9 @@ footer a[href^="http://"],
         min-width: 200px;
     }
 
-    body:before {
+    /* body:before {
         content: "Hardcore mobile version";
-    }
+    } */
 
     h1 {
         font-size: 3em;
