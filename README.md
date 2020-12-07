@@ -11,11 +11,10 @@ If you are interested in its features, read this article: [http://blog.eexit.net
 
 ## Deploy
 
-	$ firebase deploy
+    $ firebase deploy
 
 ## Builds the assets
 
-    $ brew cask install java
     $ brew install yuicompressor
     $ ./assets/styles/builder && ./assets/scripts/builder
 
@@ -23,8 +22,9 @@ If you are interested in its features, read this article: [http://blog.eexit.net
 
     $ brew cask install basictex
     $ open /usr/local/Caskroom/basictex/*/mactex-basictex-*.pkg
+    # Relaunch the terminal
     $ sudo tlmgr update --self
-    $ sudo tlmgr install collection-fontsrecommended multirow sectsty datetime fmtcount fontawesome
+    $ sudo tlmgr install collection-fontsrecommended multirow sectsty datetime fmtcount fontawesome environ qrcode
     $ cd resume
-    $ xelatex -halt-on-error -shell-escape Joris_Berthelot_WebAppEngineer_Resume.tex
-    $ mv Joris_Berthelot_WebAppEngineer_Resume.pdf ../public
+    $ xelatex -halt-on-error -shell-escape Joris_Berthelot_CloudNativeEngineer_Resume.tex
+    $ mv Joris_Berthelot_CloudNativeEngineer_Resume.pdf ../public

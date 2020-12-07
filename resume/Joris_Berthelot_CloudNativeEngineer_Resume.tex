@@ -28,32 +28,41 @@
 \usepackage{fontawesome}
 \usepackage[USenglish,nodayofweek]{datetime}
 \usepackage[BrickRed,dvipsnames]{xcolor}
+\usepackage{qrcode}
 
 % Variables here
 \def\name{Joris Berthelot}
-\def\title{WebApp Software Engineer}
+\def\title{Enthusiast Cloud Native Engineer}
 \def\resumeurl{https://joris.me}
 \def\phoneurl{http://berthelot.tel}
 \def\linkedinurl{https://www.linkedin.com/in/eexit}
 \def\githuburl{https://github.com/eexit}
 \def\twitterurl{https://www.twitter.com/JorisBerthelot}
+\def\portfoliourl{https://joris.berthelot.photography}
+\def\instagramurl{https://instagram.com/eexit}
 \def\500pxurl{https://500px.com/eexit}
+\definecolor{almostblack}{gray}{0.1}
 
 % The following metadata will show up in the PDF properties
 \hypersetup{
     colorlinks = true,
     urlcolor = black,
     pdfauthor = {\name},
-    pdfkeywords = {Resume, WebApp, Software, Engineer, SaaS, PHP, Golang, API, ReST},
+    pdfkeywords = {resume, team lead, docker, devops, webapp, software, engineer, saas,\
+php, golang, go, aws, cloud native, backend, microservices, architecture, git, iaas, iac, lamp,\
+frontend, nodejs, msc, scrum, lambda, sql, mysql, message queue, ansible, serverless, terraform, ansible\
+javascript, sass, html5, fullstack, remote, polyglot, stack, distributed, latex
+    },
     pdftitle = {\name 's resume},
     pdfsubject = {\name 's resume},
     pdfpagemode = UseNone
 }
 
 \geometry{
-    body={6.5in, 8.5in},
-    left=1.0in,
-    top=1.25in
+    a4paper,
+    total={170mm,257mm},
+    left=20mm,
+    top=20mm
 }
 
 % Customize page headers
@@ -93,57 +102,67 @@
     \vspace{0.25in}
 
     % Place name at left
-    \begin{minipage}{0.65\linewidth}
-        {\Huge \name } \\[0.5cm]
-        {\Large \title}
+    \begin{minipage}{0.80\linewidth}
+        {\Huge \name} {\small (he/him)} \\[0.5cm]
+        \setlength\fboxsep{10pt}
+        \colorbox{almostblack}{\Large \textcolor{white}{\title}}
     \end{minipage}
     \begin{minipage}{\linewidth}
-        \begin{tabular}{ll}
-            Email: & \href{mailto:joris@berthelot.tel}{\tt joris@berthelot.tel} \\[0.3cm]
-            IM: & \href{https://t.me/eexit}{\small{{\textcolor[HTML]{0088cc}\faPaperPlane}} @eexit} \\[0.3cm]
-            Social: &
-                \href{\linkedinurl}{{\textcolor[RGB]{0,123,181}\faLinkedinSquare}} \
-                \href{\githuburl}{\faGithub} \
-                \href{\twitterurl}{{\textcolor[RGB]{85,172,238}\faTwitter}} \
-                \href{\500pxurl}{\fa500Px}
+        \begin{tabular}{l}
+            \begin{tabular}{ll}
+                \href{\linkedinurl}{{\textcolor[RGB]{0,123,181}\faLinkedinSquare}} & \href{\instagramurl}{\faInstagram} \\[0.1cm]
+                \href{\githuburl}{\faGithub} & \href{\500pxurl}{\fa500Px} \\[0.1cm]
+                \href{\twitterurl}{{\textcolor[RGB]{85,172,238}\faTwitter}} & \href{\portfoliourl}{\faCameraRetro}
+            \end{tabular}
+            \fbox{\qrcode[height=1.5cm]{tel:+33628200346}}
         \end{tabular}
+        \\[0.3cm]
+        \href{mailto:joris@berthelot.tel}{\tt joris@berthelot.tel}
     \end{minipage}
 
-    \vspace{0.6cm}
+    \vspace{1.5cm}
+
+    Polyglot engineer with 7+ years of experience in building and maintaining monolith and microservices stacks. Strong LAMP background and growing interest in Golang, container management, and Serverless oriented architecture.\\
+
+    \noindent\rule{\textwidth}{1pt}\\
 
     \section*{\faCubes{} Experience}
 
         \setlength{\tabcolsep}{0.5cm}
         \begin{tabular}{p{1cm}p{\textwidth}}
             \small{Currently} & \vspace{-6mm} \begin{itemize}
-                \item SaaS Engineer at \uline{\href{http://www.careerbuilder.com}{CareerBuilder}}, since Oct. 2013
+                \item Team Lead/DevOps enthusiast at \uline{\href{https://www.careerbuilder.com}{CareerBuilder}}, since Sep. 2018 {\footnotesize \faThumbsOUp}
+                \item Modest Open Source Software contributor/maintainer \uline{\href{https://github.com/eexit?tab=repositories\&type=public}{\faGithub}}
+            \end{itemize} \\
+            \large{2013} & \vspace{-6mm} \begin{itemize}
+                \item SaaS Engineer at \uline{\href{https://www.careerbuilder.com}{CareerBuilder}}, 4 yr
             \end{itemize} \\
             \large{2012} & \vspace{-6mm} \begin{itemize}
                 \item PHP engineer and CI/QA/TDD supervisor intern at \uline{\href{https://www.ohmygreen.com}{oh my green}}, 9 mo
-                \item PHP and Ruby on Rails intern developer at \uline{\href{http://www.ginlanemedia.com}{Gin Lane}}, 9 wk {\footnotesize \faThumbsOUp}
+                \item PHP and Ruby on Rails intern developer at \uline{\href{https://www.ginlane.com/}{Gin Lane}}, 9 wk {\footnotesize \faThumbsOUp}
             \end{itemize} \\
             \large{2011} & \vspace{-6mm} \begin{itemize}
-                \item Drupal consultant/developer at \uline{\href{http://www.clever-age.com}{Clever Age}}, 8 wk {\footnotesize \faThumbsOUp}
-                \item Drupal intern developer at \uline{\href{http://www.clever-age.com}{Clever Age}}, 10 wk {\footnotesize \faThumbsOUp}
+                \item Drupal consultant/developer at \uline{\href{https://www.clever-age.com}{Clever Age}}, 8 wk {\footnotesize \faThumbsOUp}
+                \item Drupal intern developer at \uline{\href{https://www.clever-age.com}{Clever Age}}, 10 wk {\footnotesize \faThumbsOUp}
             \end{itemize} \\
             \large{2010} & \vspace{-6mm} \begin{itemize}
                 \item Telecommuting PHP developer at \sout{Internet-Selection}, 2 mo
             \end{itemize} \\
             \large{2009} & \vspace{-6mm} \begin{itemize}
-                \item Intern developer at \uline{\href{http://www.sqli.com}{SQLI Group}}, 5 mo
+                \item Intern developer at \uline{\href{https://www.sqli.com}{SQLI Group}}, 5 mo
             \end{itemize} \\
             \large{2008} & \vspace{-6mm} \begin{itemize}
-                \item Project manager and speaker at \uline{\href{http://www.be-zend.org}{Be-Zend}}, 6 mo
-                \item Lead PHP developer at \uline{\href{http://www.normaweb.fr}{Normaweb}}, 7 wk {\footnotesize \faThumbsOUp}
-                \item Intern Web developer at \uline{\href{http://www.ckc-net.com}{CKC-Net}}, 11 wk
+                \item Project manager and speaker at \sout{Be-Zend} events, 6 mo
+                \item Lead PHP developer at \uline{\href{https://www.normaweb.net/}{Normaweb}}, 7 wk {\footnotesize \faThumbsOUp}
+                \item Intern Web developer at \uline{\href{https://www.ckc-net.com}{CKC-Net}}, 11 wk
             \end{itemize} \\
             \large{2007} & \vspace{-6mm} \begin{itemize}
-                \item Web developer at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 4 wk
-                \item Intern communication analist at \uline{\href{http://www.ccazur.com}{CCAZUR FRANCE}}, 10 wk
+                \item Web developer at \uline{\href{https://www.ccazur.com}{CCAZUR FRANCE}}, 4 wk
+                \item Intern communication analist at \uline{\href{https://www.ccazur.com}{CCAZUR FRANCE}}, 10 wk
             \end{itemize}
         \end{tabular}
 
-        \vspace{0.2cm}
+        \vspace*{\fill}
 
         \begin{center}
         \small{Experience descriptions available on \href{\linkedinurl}{{\textcolor[RGB]{0,123,181}\faLinkedinSquare}}}
@@ -165,55 +184,45 @@
                             & \footnotesize \faUniversity{} Lycée Alexis de Tocqueville, Grasse, France
         \end{tabular}
 
-        \vfill
+        \vspace{0.6cm}
 
         \begin{flushright}
             \begin{footnotesize}
                 \faTrophy\ = graduated with honours \\
-                \faThumbsOUp = recomendation available upon request
+                \faThumbsOUp\ = recomendation available upon request
             \end{footnotesize}
         \end{flushright}
 
     \section*{\faCode{} Tech playground}
 
-        \subsection*{WebApp engineering}
-
-            \begin{itemize}
-                \item Frontend (HTML5, SCSS, JavaScript, performance, responsiveness, mobile first)
-                \item Backend (PHP, Golang, NodeJS, Redis, MySQL, ReST API, SDK)
-                \item Distributed Messaging (RabbitMQ, Amazon SQS)
-                \item Best practise and standards worshipper (Design Patterns, DDD, Lean, monitoring)
-                \item Team process player (Scrum, Jira, Git, Markdown, \LaTeX)
-            \end{itemize}
-
-        \subsection*{Platform engineering}
-
-            \begin{itemize}
-                \item Provisioning and deployment (Docker, CoreOS, CircleCI, \sout{Vagrant})
-                \item Cloud Computing (Amazon Web Services, DigitalOcean)
-                \item Networking (SSH, FTP, DNS, DHCP, TFTP)
-                \item Architecture (RAID, HA, failover)
-                \item Operating systems (macOS, Unix, \sout{Windows})
-            \end{itemize}
+        \begin{itemize}
+            \item IaaS: Amazon Web Services (ECS, Lambda, RDS, Route53, etc.), Digital Ocean
+            \item IaC: Terraform, Ansible, Serverless, Docker, cluster/server provisioning/maintenance
+            \item Backend: PHP, Golang, NodeJS, MQ, SQL, ReSTful API/SDK design
+            \item Frontend: HTML5, SASS, JavaScript, performance tuning, responsiveness, mobile-first
+            \item CI/CD: CircleCI, Jenkins, TravisCI, CodeClimate, code quality metrics
+            \item Design: microservices architecture (resiliency, reliability, scalability, durability), DDD, patterns
+            \item Team player: git, code reviews, Kanban/Scrum, planning poker, self-managing, and proactiveness
+            \item OS: macOS, Unix, Android, \sout{Windows}
+        \end{itemize}
 
         \vspace{0.6cm}
 
     \section*{\faCompass{} Perks}
 
         \begin{itemize}
-            \item Languages: French (native), English (fluent), Italian (basics)
-            \item Sports: volleyball, snowboard, hiking
-            \item Hobbies: photography, traveling, shopping, nature loving
-            \item Vehicles: driver licence owner, bike \& motorbike rider
-            \item Tourism: France, Italy, Egypt, Tunisia, Turkey, Morocco, Ireland, UK, Chile, USA, Iceland, Portugal, Indonesia
+            \item Languages: French (native), English (fluent), \sout{Italian}
+            \item Hobbies: photography, traveling, windsurfing, shopping, nature-loving/ecologist mindset
+            \item Transportations: driver's license owner, bike \& motorbike rider
+            \item Tourism: France, Italy, Egypt, Tunisia, Turkey, Morocco, Ireland, UK, Chile, USA, Iceland, Portugal, Indonesia, Greece, Dominican Republic, \emph{next?}
         \end{itemize}
 
         \vspace{1cm}
         Efficient telecommuter.\\
         Professionally active since 17 years old.\\
-        Lived a year in NYC \& traveling around the world on a regular basis.
+        Lived a year in NYC \& traveling around the world on a regular basis.\\
 
-        \vfill
+        \vspace*{\fill}
 
         % Footer
         \begin{center}
